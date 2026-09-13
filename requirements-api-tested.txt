@@ -1,0 +1,10 @@
+# Exact lightweight package versions used by the 29 passing software tests.
+fastapi==0.115.6
+starlette==0.41.3
+uvicorn==0.34.0
+httpx==0.28.1
+python-multipart==0.0.20
+python-dotenv==1.0.1
+Pillow==12.3.0
+PyYAML==6.0.3
+pytest==8.3.4

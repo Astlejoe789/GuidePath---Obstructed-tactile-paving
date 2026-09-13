@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "trained_checkpoint": false,
+    "checkpoint_manifest": false,
+    "real_detector_metrics": false,
+    "final_dataset_audit": false,
+    "real_api_response": false,
+    "observed_failures": false
+  },
+  "scope": "File presence only; manually verify contents and provenance.",
+  "complete": false
+}

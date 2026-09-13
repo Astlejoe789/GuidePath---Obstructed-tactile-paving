@@ -1,0 +1,58 @@
+{
+  "id": "overlap",
+  "title": "Possible overlap",
+  "input_kind": "synthetic_fixture",
+  "model_inference": false,
+  "label": "Illustrative fixture \u2014 not a trained-model prediction",
+  "image_size": {
+    "width": 720,
+    "height": 440
+  },
+  "detections": [
+    {
+      "id": 0,
+      "class": "tactile_paving",
+      "box": [
+        280,
+        30,
+        420,
+        410
+      ],
+      "confidence": 0.91
+    },
+    {
+      "id": 1,
+      "class": "bicycle",
+      "box": [
+        305,
+        150,
+        530,
+        310
+      ],
+      "confidence": 0.87
+    }
+  ],
+  "thresholds": {
+    "confidence": 0.45,
+    "candidate_floor": 0.15,
+    "overlap": 0.1
+  },
+  "result": {
+    "intent": "obstruction",
+    "detector_called": false,
+    "status": "possible_obstruction",
+    "evidence": [
+      {
+        "obstacle_id": 1,
+        "paving_id": 0,
+        "overlap_fraction_of_obstacle_box": 0.5111
+      }
+    ],
+    "answer": "1 detected bicycle/motorcycle object(s) overlap a tactile-paving box and may obstruct it.",
+    "limitation": "Bounding-box overlap does not establish physical blockage, clearance, or route safety. Other obstacle classes are unsupported.",
+    "would_call_detector": true,
+    "llm_used": false,
+    "llm_status": "demo_not_called",
+    "synthesis_mode": "deterministic_fixture"
+  }
+}

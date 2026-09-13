@@ -1,0 +1,12 @@
+{
+  "browser": "Chromium headless",
+  "checks": [
+    "three fixture outcomes",
+    "3D rotation and movement controls",
+    "demo count question",
+    "real upload missing-weights error without fixture substitution",
+    "mobile screenshot"
+  ],
+  "page_errors": [],
+  "scope": "UI and software checks only; no trained model or live LLM"
+}

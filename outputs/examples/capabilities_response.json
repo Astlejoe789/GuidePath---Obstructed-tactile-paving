@@ -1,0 +1,8 @@
+{
+  "intent": "capabilities",
+  "detector_called": false,
+  "status": "answered",
+  "answer": "GuidePath detects tactile paving, bicycles and motorcycles, counts supported detections, and flags possible image-plane overlap.",
+  "llm_used": false,
+  "llm_status": "not_needed"
+}

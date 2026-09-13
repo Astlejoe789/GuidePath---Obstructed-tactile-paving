@@ -1,0 +1,6 @@
+data
+runs
+weights
+.env
+.git
+__pycache__

@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+data/
+runs/
+*.pt
+*.onnx
+*.engine
+.DS_Store
+node_modules/

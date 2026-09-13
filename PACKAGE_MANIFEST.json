@@ -1,0 +1,353 @@
+{
+  "package": "GuidePath v0.2",
+  "author": "ASTLE JOE A S",
+  "status": "Software demonstrator; trained-model evidence pending",
+  "files": [
+    {
+      "path": ".dockerignore",
+      "bytes": 40,
+      "sha256": "bc268015d367ceff164eb7a07ebfc103ab90644a6b8bd005d92b952dd8daf611"
+    },
+    {
+      "path": ".env.example",
+      "bytes": 226,
+      "sha256": "4338680255f509a12108117759020d43c95571db09b725b97aa8004943f9ca80"
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "bytes": 310,
+      "sha256": "e3ffd7011d533c3227011a1f35416b9619c7de2000c5fa5f502e12141d845ce0"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 97,
+      "sha256": "05d5d68d6ae508d3ee0d0baae0619b7e423023020d9d9d138042004aa5454267"
+    },
+    {
+      "path": "Dockerfile",
+      "bytes": 426,
+      "sha256": "5531a501fd633e71afddff8d8cd3ecd845066da21ec6e8843111df780c98f040"
+    },
+    {
+      "path": "GuidePath_Colab.ipynb",
+      "bytes": 14474,
+      "sha256": "e82c84128149ca58e9ae6bafc6c2fdcf87f5269a742d1cb8305af236856da8f5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5540,
+      "sha256": "4d1827a19e42f44df3b91058dcdc947ee4ba3e80e5affb7c562f66def93cbf8e"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 1194,
+      "sha256": "a96b186149388f7eb210990feb0666d8baea723b0e761bf5e99b671843dbfcc3"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "bytes": 1264,
+      "sha256": "89032a9f6b952fcf20b99b8a1a86e59fe275ecc4d56cb82f063a4a1d301ca948"
+    },
+    {
+      "path": "docs/API_EXAMPLES.md",
+      "bytes": 2070,
+      "sha256": "e337f42e0c51625067149bee9fc27e3fab3c2c3654961b2838532e52f13334bb"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 2429,
+      "sha256": "73c3eea2a2cb58a0abf70a619d6959423083f56da56e40f15f698db7a851d030"
+    },
+    {
+      "path": "docs/DATA_CARD.md",
+      "bytes": 2007,
+      "sha256": "198ee8044e3d8e59d2909538c3414062c393485c9c16b21e4bfe04fa73c1df64"
+    },
+    {
+      "path": "docs/EVIDENCE_STATUS.md",
+      "bytes": 1324,
+      "sha256": "773314b6c908b032fbc18519b1a34e04801af0a695c631dd989744da0401876f"
+    },
+    {
+      "path": "docs/FAILURE_REVIEW.md",
+      "bytes": 852,
+      "sha256": "5154ffd63fe54deb0413389b17e9360bebee48444b56a0e4ab36f0c1db01116c"
+    },
+    {
+      "path": "docs/GITHUB_UPLOAD.md",
+      "bytes": 1774,
+      "sha256": "0d8df6cbf192cefb780e11b5da700594b72bee4a4c3d3f2cc4c375d447a15feb"
+    },
+    {
+      "path": "docs/MEMO_OUTLINE.md",
+      "bytes": 1677,
+      "sha256": "15c5bd8c4be1fca7852d0686ea0997e4824b05c0abc5341f06f2c374cadba90d"
+    },
+    {
+      "path": "docs/MODEL_CARD.md",
+      "bytes": 1202,
+      "sha256": "3a26cf25bd4c72485074d247225af1ec3208bbb4a9c9a221ea08842c4f1566af"
+    },
+    {
+      "path": "docs/PROJECT_EXPLAINED.md",
+      "bytes": 4020,
+      "sha256": "45fde8fdacd7bdb9322f1c9c7ae7bc297af480b51d081adf170ae5bafcda5afa"
+    },
+    {
+      "path": "docs/SCORING_PLAN.md",
+      "bytes": 1873,
+      "sha256": "a1f65a6122de0bc70df19b008684e34ed4e5682cb810be5eff9c39e6daf398dc"
+    },
+    {
+      "path": "docs/TRAINING.md",
+      "bytes": 4244,
+      "sha256": "4c42b2af348cb90cceea7e48039a80f69cdf5bdd4025ef0a0b5578739f5ec3a3"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "bytes": 1427,
+      "sha256": "75adb83438e5f51ff8efdd4199fc61c9a027f69eb8f7c44034c1b4a2669a3a42"
+    },
+    {
+      "path": "docs/evidence/README.md",
+      "bytes": 590,
+      "sha256": "112d7bbf9cc9a094fecc8ce24238614ed3ef15e8087db082cbd2eed35fd58c60"
+    },
+    {
+      "path": "docs/evidence/supplied_colab_setup.png",
+      "bytes": 194831,
+      "sha256": "4b9242b2040527598fefb07777099d45646e1cb4af691b7ddde3c65e6c42dee8"
+    },
+    {
+      "path": "docs/evidence/supplied_colab_smoke.png",
+      "bytes": 139618,
+      "sha256": "18f1c21ae53bceea319e192a783bb82d8bf17765358ee574d42a7a125ce6d19a"
+    },
+    {
+      "path": "docs/reports/ASTLE_JOE_AS_GuidePath_Technical_Memo.pdf",
+      "bytes": 49544,
+      "sha256": "1d5c943e8cde1f0d9d34bcf5d1f6b32b639a39f41cabc6df536c7cd19c2dcb9a"
+    },
+    {
+      "path": "docs/reports/GuidePath_Illustrated_Project_Report.pdf",
+      "bytes": 67909,
+      "sha256": "574f5f326c6ce7a045bd1f409d726f646fbfac8b15837b5cc7935f64555e64b7"
+    },
+    {
+      "path": "docs/screenshots/01_review_workspace.png",
+      "bytes": 166310,
+      "sha256": "1b4a8b13b20d9e7dc892b338a60e3ab33fb329bf7486e18ee9ba018c14dad721"
+    },
+    {
+      "path": "docs/screenshots/02_beside_paving.png",
+      "bytes": 164704,
+      "sha256": "a7685d37da05a589b7efb14abc790cbf9c9c2755944581d72a773af311774682"
+    },
+    {
+      "path": "docs/screenshots/03_uncertainty.png",
+      "bytes": 165170,
+      "sha256": "98341b8e37bbae3be9f9b2235d789e7c6825e39c7d09c309f8883b5593c8ff01"
+    },
+    {
+      "path": "docs/screenshots/04_interactive_3d.png",
+      "bytes": 203845,
+      "sha256": "cca185a908dd55b6d53cc781374fbab12f6999267556f1334c02433de5de3827"
+    },
+    {
+      "path": "docs/screenshots/05_missing_weights_guardrail.png",
+      "bytes": 185763,
+      "sha256": "51eddd664bca75983bab9a6a3c9bd53cb0897758502ea3e389c8b0dd1dfb00cb"
+    },
+    {
+      "path": "docs/screenshots/06_mobile.png",
+      "bytes": 130940,
+      "sha256": "d7515f914b01da1ec08429a8ca3e8ca37ca5ba32abb057636a3f04c201c59269"
+    },
+    {
+      "path": "docs/screenshots/README.md",
+      "bytes": 1069,
+      "sha256": "2bad342020a14d5636bf1b8b172844ef38a219995d27b69aac41ccd17806f2be"
+    },
+    {
+      "path": "guidepath/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "guidepath/api.py",
+      "bytes": 5336,
+      "sha256": "3e0fd24c1b5e5fd63838b471ef89d63aa7f1ba75493a164f706e7e1766f0ce19"
+    },
+    {
+      "path": "guidepath/examples.py",
+      "bytes": 1192,
+      "sha256": "346a499c1411b0f2a467009ba1ea8d3c49d9642173465efb3c1de1cf4e3830ad"
+    },
+    {
+      "path": "guidepath/llm.py",
+      "bytes": 4709,
+      "sha256": "53d3352cb24a38180736557bca7342a0be316f702f810210f1519520077368b1"
+    },
+    {
+      "path": "guidepath/reasoning.py",
+      "bytes": 6638,
+      "sha256": "ce5c906f1839010174bd65e696fe38479115cf03d28a79f075cc5aa395fa7bc7"
+    },
+    {
+      "path": "guidepath/static/app.js",
+      "bytes": 9283,
+      "sha256": "540f715e70e7d4edfbd7438297fe441042c704c11970be114a6ec963eaf16b17"
+    },
+    {
+      "path": "guidepath/static/index.html",
+      "bytes": 3871,
+      "sha256": "946b346c42d6f5cea6c27e1da3cc97b48195eff226bee8ad857439e6901c8bac"
+    },
+    {
+      "path": "guidepath/static/style.css",
+      "bytes": 5553,
+      "sha256": "fe0ac2e9bd7dbb655eb9e527537048064d9637a9bb65be89a93730fd2c2cc792"
+    },
+    {
+      "path": "outputs/examples/README.md",
+      "bytes": 580,
+      "sha256": "9e01f946b7caa470cbcb78a489e46908b99060ebacf768982c64e07ce0c705b1"
+    },
+    {
+      "path": "outputs/examples/beside_fixture.json",
+      "bytes": 1210,
+      "sha256": "9f91168ef6cc7d49aaee34c8bbb40fae2a759d12890ddb96f80cb4d90cd21387"
+    },
+    {
+      "path": "outputs/examples/capabilities_response.json",
+      "bytes": 277,
+      "sha256": "5280ce8eef83adb1382a8d633bea119e0822822c16a198d32c317be7e9434a66"
+    },
+    {
+      "path": "outputs/examples/overlap_fixture.json",
+      "bytes": 1332,
+      "sha256": "e45094053d6d2ed7cb82a16330816be3512d78301eaa666bf00f9452ac5410fb"
+    },
+    {
+      "path": "outputs/examples/uncertain_fixture.json",
+      "bytes": 1199,
+      "sha256": "eb9b453e5ff2874515b82322d464dab068bf9e1433f4ce2738a3c16c923b64f1"
+    },
+    {
+      "path": "outputs/verification/browser_checks.json",
+      "bytes": 340,
+      "sha256": "5955402f223c2ca53f1c0d36529271d1658c73cdc8de093310e427f837e312b3"
+    },
+    {
+      "path": "outputs/verification/environment.json",
+      "bytes": 364,
+      "sha256": "b1f449449a50052c9b3e25edff80daf53acb3b3d3225783e9277f8275dff4032"
+    },
+    {
+      "path": "outputs/verification/pytest.txt",
+      "bytes": 626,
+      "sha256": "637156c14b33d53a1b7067cfddf5258ef5b25aaabaa0894b8422e9970084afe4"
+    },
+    {
+      "path": "outputs/verification/submission_inventory.json",
+      "bytes": 318,
+      "sha256": "964f70b47b9559eae4685bda26133f00393b4f33dd0095df82aceb1c8fd4cebc"
+    },
+    {
+      "path": "requirements-api-tested.txt",
+      "bytes": 230,
+      "sha256": "e55bcdbb9c34400b3575402497ab6b63dd0f63e8d26dd11544a7e49201a1dbf9"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "bytes": 37,
+      "sha256": "db7f64c55fa057debf02c7fccde2d3210557602f3a6b75eb447f668e50627d72"
+    },
+    {
+      "path": "requirements-ui.txt",
+      "bytes": 123,
+      "sha256": "5edf8a3b24bbfc1a13b48ebb65b575c552e0107f5c30dd85c25d0589cd2eadd2"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 55,
+      "sha256": "6f67d35842812979c200309e05393688aed855c076ecede190fdd9718dfe4044"
+    },
+    {
+      "path": "scripts/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "scripts/capture_ui.cjs",
+      "bytes": 2976,
+      "sha256": "f4263493c2890e51257c7d0ebd1731829aa34719f3a18818cb2f3390ee95a17e"
+    },
+    {
+      "path": "scripts/clean_dataset.py",
+      "bytes": 2584,
+      "sha256": "ba6f98e89d3bb571fed452364f6dfd6f07dfffb4fc8c56ce64705226df58184f"
+    },
+    {
+      "path": "scripts/collect_cases.py",
+      "bytes": 1558,
+      "sha256": "35d5024adb186aa887f1f7dc2e12117f2735d53708553b179ae582afbfb2ebab"
+    },
+    {
+      "path": "scripts/evaluate.py",
+      "bytes": 1497,
+      "sha256": "feccbf0f4c2b328621a59e3c6b1b2e151ffc873b50e733d212d9042977a0c8f5"
+    },
+    {
+      "path": "scripts/install_weights.py",
+      "bytes": 1287,
+      "sha256": "2936cc6fd1e63ee66905f599653bbf3cd0c3605a9d8e5c5e3beb9cd2eafa37e5"
+    },
+    {
+      "path": "scripts/prepare_wotr.py",
+      "bytes": 5841,
+      "sha256": "6c79cd8569d0220af3f481956ed7189e0bd85e94421cdbb1defb0ce19dd429ba"
+    },
+    {
+      "path": "scripts/reasoning_eval.py",
+      "bytes": 2410,
+      "sha256": "d9590b0ed734162c18bf6e8394cecc2961f15698507296c4ab5a60610a26d36a"
+    },
+    {
+      "path": "scripts/train.py",
+      "bytes": 2956,
+      "sha256": "e0c1765a107485816bcf5e9ac270ed0cbcae661e58b1429465612ff7d34acb96"
+    },
+    {
+      "path": "scripts/verify_submission.py",
+      "bytes": 831,
+      "sha256": "d5f4bd2101fe1f90dfbe89e5d8752d3539fedae0deec6f7db0752cadfb44f8e5"
+    },
+    {
+      "path": "tests/test_core.py",
+      "bytes": 4247,
+      "sha256": "7b615cb2ec7e1171c70f8e8814837f340ba4cea97d03d64db11ee6f23565c3bd"
+    },
+    {
+      "path": "tests/test_dataset.py",
+      "bytes": 2873,
+      "sha256": "9caca2dd819d21fddf1532920278f3faf4dd88a80fd0838c7e4d26b01bcb0542"
+    },
+    {
+      "path": "tests/test_upgrade.py",
+      "bytes": 2877,
+      "sha256": "4338dcba02727708d2e8a261a3141affbec02b3c11cf92e7625d3c9633e21de5"
+    },
+    {
+      "path": "thresholds.json",
+      "bytes": 58,
+      "sha256": "12b5dcc3985e86634635b809b3c8ccc21727f6db4679087c99f286fff40a5456"
+    },
+    {
+      "path": "weights/README.md",
+      "bytes": 606,
+      "sha256": "4184341de1f024dedf3f8de65781b11f9954b04d5d664e15f71a18e4179d439b"
+    }
+  ],
+  "excluded": "Raw data, model binaries, run cache, credentials and environment folders. No trained model was supplied."
+}
